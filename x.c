@@ -464,6 +464,8 @@ void
 bpress(XEvent *e)
 {
 	struct timespec now;
+	MouseShortcut *ms;
+	MouseKey *mk;
 	int snap;
 
 	if (IS_SET(MODE_MOUSE) && !(e->xbutton.state & forcemousemod)) {
