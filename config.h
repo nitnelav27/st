@@ -31,7 +31,7 @@ static float chscale = 1.0;
 
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.75;
 
 
 /*
@@ -204,6 +204,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+	{ MODKEY,               XK_Up,          kscrollup,      {.i = -1} },
+	{ MODKEY,               XK_Down,        kscrolldown,    {.i = -1} },
 };
 
 /*
