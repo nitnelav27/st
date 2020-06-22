@@ -31,7 +31,7 @@ static float chscale = 1.0;
 
 
 /* bg opacity */
-float alpha = 0.75;
+float alpha = 0.83;
 
 
 /*

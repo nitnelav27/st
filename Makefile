@@ -54,4 +54,9 @@ uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st
 	rm -f $(DESTDIR)$(MANPREFIX)/man1/st.1
 
+git:
+	git add --all
+	git commit -m "$m"
+	git push st master
+
 .PHONY: all options clean dist install uninstall
