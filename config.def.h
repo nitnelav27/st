@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hasklig:style=Regular:size=15:antialias=true:autohint=true";
-+static char *font2[] = {
-	"Noto Color Emoji:style=Regular:size=13"
+static char *font = "MesloLGS Nerd Font:style=Regular:size=15:antialias=true:autohint=true";
+static char *font2[] = {
+      	"JoyPixels:style=Regular:size=15"
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
 static int borderpx = 2;
