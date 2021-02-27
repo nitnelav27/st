@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "MesloLGS Nerd Font:style=Regular:size=15:antialias=true:autohint=true";
+static char *font = "MesloLGS NF:style=Regular:size=15:antialias=true:autohint=true";
 static char *font2[] = {
       	"JoyPixels:style=Regular:size=15"
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
@@ -105,25 +105,23 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#272c2e",
-	"#cc0000",
-	"#4e9a06",
-	"#c4a000",
-	"#3465a4",
-	"#75507b",
-	"#06989a",
-	"#d3d7cf",
-
+	"#191919",
+	"#cc241d",
+	"#40a62f",
+	"#f2e635",
+	"#51afef",
+	"#b30ad0",
+	"#32d0fc",
+	"#acadb1",
 	/* 8 bright colors */
-	"#555753",
-	"#ef2929",
-	"#8ae234",
-	"#fce94f",
-	"#729fcf",
-	"#ad7fa8",
-	"#34e2e2",
-	"#eeeeec",
-
+	"#928374",
+	"#fb4934",
+	"#47c930",
+	"#fff138",
+	"#2e4bea",
+	"#cc15ed",
+	"#54d9ff",
+	"#dfdfdf",
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
